@@ -15,8 +15,9 @@ const me = {
   hasSiblings: true,
   shoeCount: 5,
   favThreeFoods: [ 'mushrooms', 'ice cream', 'potato chips' ]
-
 };
+
+
 console.log('A little about me:', me);
 
 /* 2. Accessing object properties.
@@ -51,7 +52,7 @@ console.log(me.favThreeFoods[me.favThreeFoods.length-1]);
 
 console.log(me.shoeCount);
 
-me.shoeCount = 5 + 1;
+me.shoeCount = me.shoeCount + 1;
 
 console.log(me.shoeCount);
 
